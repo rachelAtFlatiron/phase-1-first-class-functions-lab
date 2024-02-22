@@ -57,6 +57,9 @@ describe('index.js', function () {
     it('doubles fares', function () {
       expect(fareDoubler(10)).to.eql(20);
     });
+    it('doubles fares', function () {
+      expect(fareDoubler(18)).to.eql(36);
+    });
   });
 
   describe('fareTripler()', function () {
